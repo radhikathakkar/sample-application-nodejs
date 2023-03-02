@@ -11,6 +11,6 @@ router.post('/heart-rates', createHateRateHandler);
 // post heart rates in bulk to postgresql
 router.post('/heart-rates-bulk', createHateRateBulkHandler);
 
-// post heart rates in bulk to postgresql
+// get heart rate data using db query - (sample)
 router.get('/heart-rates-sample', getDataHandler);
 module.exports = router;
